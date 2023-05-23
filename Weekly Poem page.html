@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="Weekly Poem style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head> 
+<body>
+    <body>
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="profile">
+                    <img src="profile pic.jpg" alt="">
+                    <h3>Daniel Ureta</h3>
+                    <p>Creative Talent</p>
+                </div>
+                <ul>
+                    <li><a href="Weekly Poem page.html" class="active">
+                        <span class="icon"><i class="fas fa-pencil"></i></span>
+                        <span class="item">Weekly Poem</span>
+                    </a></li>
+                    <li><a href="Final Project.html">
+                        <span class="icon"><i class="fas fa-list"></i></span>
+                        <span class="item">Poem Gallery</span>
+                    </a></li>
+                    <li><a href="About Page.html" class="active">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span class="item">About</span>
+                    </a></li>
+                    <li><a href="Contacts Example.html">
+                        <span class="icon"><i class="fas fa-phone"></i></span>
+                        <span class="item">Hire Me</span>
+                    </a></li>
+                </ul>
+            </div>
+            <div class="section">
+                <div class="top_navbar">
+                    <div class="hamburger">
+                        <a href="#"><i class="fas fa-bars"></i></a>
+                    </div>
+                    <h3>The Weekly Poet</h3>
+                </div>
+            </div>
+            <script>
+                var hamburger = document.querySelector(".hamburger");
+                hamburger.addEventListener("click", function(){
+                document.querySelector("body").classList.toggle("active");
+                })
+            </script>
+            <div class="container">
+                <h1>Poem of the Week</h1>
+                <div class="content">
+                <div class="poem">
+                  <div class="poem-image">
+                    <img src="Journey.jpg" alt="Poem Image">
+                  </div>
+                </div>
+                <div class="poem">
+                  <h2 class="poem-title">The Dreamer's Journey</h2>
+                  <p class="poem-text">
+                    In the twilight's gentle embrace,<br>
+                    Where dreams and reality interlace,<br>
+                    A wanderer treads the moonlit way,<br>
+                    On a journey that colors the night grey.
+                  </p>
+                  <p class="poem-text">
+                    With every step, worlds unfurl,<br>
+                    Stories whispered, secrets hurl,<br>
+                    The dreamer roams through time and space,<br>
+                    Seeking solace, finding grace.
+                  </p>
+                  <p class="poem-text">
+                    The stars ignite, a celestial guide,<br>
+                    Through galaxies unknown, side by side,<br>
+                    The dreamer dances, weightless and free,<br>
+                    Weaving tapestries of possibility.
+                  </p>
+                  <p class="poem-author">- Emily Rivers</p>
+                </div>
+            </div> 
+              </div>
+    </body>
+</html>

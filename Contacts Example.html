@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="Contact example design.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head> 
+<body>
+    <body>
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="profile">
+                    <img src="profile pic.jpg" alt="">
+                    <h3>Daniel Ureta</h3>
+                    <p>Creative Talent</p>
+                </div>
+                <ul>
+                    <li><a href="Weekly Poem page.html" class="active">
+                        <span class="icon"><i class="fas fa-pen"></i></span>
+                        <span class="item">Weekly Poem</span>
+                    </a></li>
+                    <li><a href="Final Project.html">
+                        <span class="icon"><i class="fas fa-list"></i></span>
+                        <span class="item">Poem Gallery</span>
+                    </a></li>
+                    <li><a href="About Page.html" class="active">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span class="item">About</span>
+                    </a></li>
+                    <li><a href="Contacts Example.html">
+                        <span class="icon"><i class="fas fa-phone"></i></span>
+                        <span class="item">Hire Me</span>
+                    </a></li>
+                </ul>
+            </div>
+            <div class="section">
+                <div class="top_navbar">
+                    <div class="hamburger">
+                        <a href="#"><i class="fas fa-bars"></i></a>
+                    </div>
+                    <h3>The Weekly Poet</h3>
+                </div>
+            </div>
+            <script>
+                var hamburger = document.querySelector(".hamburger");
+                hamburger.addEventListener("click", function(){
+                document.querySelector("body").classList.toggle("active");
+                })
+            </script>
+        </div>
+    <div class="container">
+        <h1>Hire Me</h1>
+        <p>I would love to respond to your questions and work with you! Feel free to get in touch.</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Send your concerns</h3>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Gabriel Jose">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="09XXXXXXXXX">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="Iamcool@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="Topic">
+                        </div>
+                    </div>
+
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Message"></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Get In Touch</h3>
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td>daniel.joshua.ureta@adamson.edu.ph</td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td>09669231198</td>
+                    </tr>
+                    <tr>
+                        <td>Home:</td>
+                        <td>2174 Rd.2 Fabie Estate Sta.Ana Manila</td>
+                    </tr>
+                    <tr>
+                        <td>Socials:</td>
+                        <td>
+                         <div class="socials">
+                            <a href="https://www.facebook.com/profile.php?id=100015571537270" target="_blank"><h3><i class="fa-brands fa-facebook"></i></h3></a>
+                            <a href="https://www.instagram.com/danieljoshuau/" target="_blank"><h3><i class="fa-brands fa-instagram"></i></h3></a>
+                            <a href="https://goo.gl/maps/9UHLDPko5beuB73s7" target="_blank"><h3><i class="fas fa-map-marker-alt"></i></h3></a>
+                         </div>
+                        </td>
+
+
+                    </tr>
+                </table>
+            </div>
+        </div>
+</div>
+</body>
+</html>

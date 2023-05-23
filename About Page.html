@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="About Page style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head> 
+<body>
+    <body>
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="profile">
+                    <img src="profile pic.jpg" alt="">
+                    <h3>Daniel Ureta</h3>
+                    <p>Creative Talent</p>
+                </div>
+                <ul>
+                    <ul>
+                        <li><a href="Weekly Poem page.html" class="active">
+                            <span class="icon"><i class="fas fa-pen"></i></span>
+                            <span class="item">Weekly Poem</span>
+                        </a></li>
+                        <li><a href="Final Project.html">
+                            <span class="icon"><i class="fas fa-list"></i></span>
+                            <span class="item">Poem Gallery</span>
+                        </a></li>
+                        <li><a href="About Page.html" class="active">
+                            <span class="icon"><i class="fas fa-home"></i></span>
+                            <span class="item">About</span>
+                        </a></li>
+                        <li><a href="Contacts Example.html">
+                            <span class="icon"><i class="fas fa-phone"></i></span>
+                            <span class="item">Hire Me</span>
+                        </a></li>
+                    </ul>
+            </div>
+            <div class="section">
+                <div class="top_navbar">
+                    <div class="hamburger">
+                        <a href="#"><i class="fas fa-bars"></i></a>
+                    </div>
+                    <h3>The Weekly Poet</h3>
+                </div>
+            </div>
+            <script>
+                var hamburger = document.querySelector(".hamburger");
+                hamburger.addEventListener("click", function(){
+                document.querySelector("body").classList.toggle("active");
+                })
+            </script>
+        </div>
+        <div class="About-section">
+            <div class="heading">
+                <h1>About This Page</h1>
+                <p>A poem is a distilled expression of emotions, thoughts, and experiences, 
+                   woven together through carefully chosen words, rhythms, and metaphors, 
+                   creating a vivid and resonant tapestry of language.</p>
+            </div>
+            <div class="container">
+                <section class="about">
+                    <div class="about-image">
+                        <img src="Writing.png">
+                    </div>
+                    <div class="about-content">
+                        <h2>A whole story in a few lines</h2>
+                        <p>Poetry is a profound and imaginative form of artistic expression that utilizes the power of words to convey emotions, 
+                           thoughts, and experiences in a deeply evocative and thought-provoking manner. It goes beyond ordinary language, employing 
+                           various literary devices such as metaphors, similes, imagery, rhythm, and rhyme to create a unique and heightened aesthetic 
+                           experience. Poetry has the ability to capture the essence of moments, explore complex themes, challenge conventions, and ignite 
+                           the reader's imagination, inviting them to delve into the rich tapestry of human existence, And the goal of this page is to make 
+                           that experience more accessible to the masses by sharing poetry week by week.</p>
+                        <a href="https://www.facebook.com/profile.php?id=100015571537270" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/danieljoshuau/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+    
+                </section>
+        </div>
+    </div>
+    </body>
+</html>

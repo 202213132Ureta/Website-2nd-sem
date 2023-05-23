@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="profile pic.jpg" alt="">
+                <h3>Daniel Ureta</h3>
+                <p>Creative Talent</p>
+            </div>
+            <ul>
+                <li><a href="Weekly Poem page.html" class="active">
+                    <span class="icon"><i class="fas fa-pen"></i></span>
+                    <span class="item">Weekly Poem</span>
+                </a></li>
+                <li><a href="Final Project.html">
+                    <span class="icon"><i class="fas fa-list"></i></span>
+                    <span class="item">Poem Gallery</span>
+                </a></li>
+                <li><a href="About Page.html" class="active">
+                    <span class="icon"><i class="fas fa-home"></i></span>
+                    <span class="item">About</span>
+                </a></li>
+                <li><a href="Contacts Example.html">
+                    <span class="icon"><i class="fas fa-phone"></i></span>
+                    <span class="item">Hire Me</span>
+                </a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <div class="top_navbar">
+                <div class="hamburger">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </div>
+                <h3>The Weekly Poet</h3>
+            </div>
+        </div>
+        <script>
+            var hamburger = document.querySelector(".hamburger");
+            hamburger.addEventListener("click", function(){
+            document.querySelector("body").classList.toggle("active");
+            })
+        </script>
+    </div>
+    <div class="gallery">
+        <div class="poem">
+          <h2 class="title">Drugs</h2>
+          <p class="author">Daniel Ureta</p>
+          <input type="checkbox" id="check">
+          <p class="content"><br>Light as a feather, she felt
+            <br>As she stray closer to her death,
+            <br>She's off in her little world
+            <br>Unable to say a word.
+          </p>
+          <div class="content2">
+            <p>Her breathes gets slower and slower,
+                <br>And the room gets colder and colder,
+                <br>She suddenly said "I will never be sober"
+                <br>As the drugs destroy her over and over.
+            </p>
+          </div>
+          <label for="check">Show More</label>
+        </div>
+        <div class="poem">
+            <h2 class="title">Pointless</h2>
+            <p class="author">Daniel Ureta</p>
+            <input type="checkbox" id="check2">
+            <p class="content"><br>All this running around
+              <br>Trying to cover my shadow
+              <br>Being different and proud
+              <br>Always feels so shallow
+            </p>
+            <div class="content2">
+              <p><br>All this shutting things out
+                  <br>I don't want to be part of it
+                  <br>These problems, These doubts
+                  <br>I can never omit
+                  <br><br>All these words that I say
+                  <br>Echoes to the void
+                  <br>Lost in the endless fray
+                  <br>I am forever paranoid
+              </p>
+            </div>
+            <label for="check2">Show More</label>
+          </div>
+          <div class="poem">
+            <h2 class="title">Sierra Madre</h2>
+            <p class="author">Benedict D'Bayan</p>
+            <input type="checkbox" id="check3">
+            <p class="content"><br>Dakilang Sierra Madre,
+              <br>Walang nakakapantay sa iyong kariktan!
+              <br><br>Nang ikaw ay mabuo,
+              <br>Pugad ng kagandahan, 
+            </p>
+            <div class="content2">
+              <p>At ng lahat ng iba't-ibang
+                  <br>Katangiang kabigha-bighani,
+                  <br>Dumadaloy sa kahabaan ng 'yong kaluluwa.
+                  <br><br>Dakilang Sierra Madre,
+                  <br>Ang tibay ng 'yong dibdib,
+                  <br>Sa mga naglalakasang bagyo,
+                  <br>Kahinaan ang 'yong dinudulot.
+                  <br>Mga bagay na may buhay at walang buhay,
+                  Sa iyong likod ay walang tinatamong sugat,
+                  <br>Gaya nalamang ng poetikong may akda.
+                  <br><br>Dakilang Sierra Madre,
+                  <br>Ang kapunuan ng iba't-ibang kagandahan sa iyong loob,
+                  <br>Ay maihahalintulad sa
+                  Samu't-saring klase ng buhay na namamahay sa dakilang
+                  Kabundukan,
+                  <br>Patunay ng buhay na umaagos mula sa 'yong pag iral.
+                  <br><br>Dakilang Sierra Madre,
+                  <br>Habang ako'y nanonood mula sa siyudad,
+                  <br>Na puno ng karaniwang tanawin,
+                  <br><br>Ang kagustuhang kong mamuhay at manatili,
+                  <br>Sa iyong mundong puno ng kagandahan,
+                  <br>Lalo pang nag aalab.
+                  <br><br>Kung ito man ay mangyayari lang sa isang imposibleng panaginip,
+                  <br><br>Pakiusap, wag niyo na 'kong gisingin.
+              </p>
+            </div>
+            <label for="check3">Show More</label>
+          </div>
+          <div class="poem">
+            <h2 class="title">Rage</h2>
+            <p class="author">Daniel Ureta</p>
+            <input type="checkbox" id="check4">
+            <p class="content"><br>Manic in the skies
+              <br>There's rage in my eyes
+              <br>Even though it's down below
+              <br>There's nowhere to go
+            </p>
+            <div class="content2">
+              <p><br>You all better hide
+                  <br>Take your ass inside
+                  <br>It's burning in my core
+                  <br>And nobody knows
+                  <br><br>Now I'm down to fight
+                  <br>Killing everybody on sight
+                  <br>Slaying everybody I loathe
+                  <br>Using every bullet in the load
+                  <br><br>You can run, You can hide
+                  <br>There's no place I can't find
+                  <br>You better know where to go
+                  <br>Cause if I find you I'm gonna put a bullet through your skull.
+              </p>
+            </div>
+            <label for="check4">Show More</label>
+          </div>
+          <div class="poem">
+            <h2 class="title">Manila</h2>
+            <p class="author">Daniel Ureta</p>
+            <input type="checkbox" id="check5">
+            <p class="content"><br>I feel the cold wind across my face
+              <br>As I walk through the streets of my city
+              <br>Poverty runs deep in my place
+              <br>But somehow, I am unable to feel pity
+            </p>
+            <div class="content2">
+              <p><br>The sunlight shines brightly like rhinestones in the sky
+                  <br>With it are the hopes of my people
+                  <br>Knowing that they haven't died
+                  <br>But soon they realize that their hopes are feeble
+                  <br><br>Hope is a lie we refuse to omit
+                  <br>But we ignore because that hope is what keeps us alive
+                  <br>Even if it's false we still believe it
+                  <br>Because hope is what makes us survive
+              </p>
+            </div>
+            <label for="check5">Show More</label>
+          </div>
+          <div class="poem">
+            <h2 class="title">Colors</h2>
+            <p class="author">Daniel Ureta</p>
+            <input type="checkbox" id="check6">
+            <p class="content"><br>The colors that exist,
+              <br>Brings darkness to me,
+              <br>The colors that I can't resist, 
+              <br>Are the ones I can't get for free,
+            </p>
+            <div class="content2">
+              <p><br>The sounds of the colors that I hear,
+                  <br>The happiness that sounds so real, 
+                  <br>These things that i can never revere,
+                  <br>And only brings me tears.
+                  <br><br>Colors that are so honest,
+                  <br>Shades that are so modest,
+                  <br>I can always look past what's violent,
+                  <br>But can never focus on what's prominent.
+                  <br><br>The colors that exist,
+                  <br>Brings darkness to me
+                  <br>The colors that are free, 
+                  <br>Are the ones I will never see,
+              </p>
+            </div>
+            <label for="check6">Show More</label>
+          </div>
+          
+      </div>
+</body>
+</html>
